@@ -6,7 +6,8 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Dense Kernel`,
+    siteTitleAlt: `Dense Kernel - Internet home of Jonathan Manfield`,
   },
   plugins: [
     {
@@ -26,12 +27,8 @@ module.exports = {
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
-          },
-          {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
-          },
+            url: `https://twitter.com/densekernel`,
+          }
         ],
       },
     },
